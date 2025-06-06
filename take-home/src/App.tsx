@@ -1,14 +1,13 @@
-import { fetchData } from './middleware/middleware.ts'
+import ListingsViewer from './ListingsViewer';
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 function App() {
-
-  fetchData();
-
   return (
-    <>
-      <h1>ACTUAL take home test</h1>
-    </>
-  )
+    <div className="App">
+      <ListingsViewer />
+    </div>
+  );
 }
 
-export default App
+export default App;
